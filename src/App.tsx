@@ -7,10 +7,12 @@ import { Footer } from './components/Layout/Footer/Footer';
 
 export const App: FC = () => (
 	<>
-		<Card>
-			<Image />
-			<Content />
-		</Card>
+		<main>
+			<Card>
+				<Image />
+				<Content />
+			</Card>
+		</main>
 		<Footer />
 	</>
 );
