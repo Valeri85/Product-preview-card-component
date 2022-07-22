@@ -11,16 +11,16 @@ export const Image: FC = () => (
 	<picture className={classes.picture}>
 		<source
 			media="(min-width: 1201px)"
-			srcSet={`${desktopWEBP} 600w`}
+			srcSet={desktopWEBP}
 			type="image/webp"
 		/>
 		<source
 			media="(min-width: 1201px)"
-			srcSet={`${desktopJPG} 600w`}
+			srcSet={desktopJPG}
 			type="image/jpeg"
 		/>
-		<source srcSet={`${mobileWEBP} 686w,`} type="image/webp" />
-		<source srcSet={`${mobileJPG} 686w,`} type="image/jpeg" />
+		<source srcSet={mobileWEBP} type="image/webp" />
+		<source srcSet={mobileJPG} type="image/jpeg" />
 		<img src={mobileJPG} width="686" height="480" alt="Perfume Chanel" />
 	</picture>
 );
