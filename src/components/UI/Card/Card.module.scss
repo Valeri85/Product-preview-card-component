@@ -1,0 +1,20 @@
+@use '../../../assets/styles/helpers/mixins' as *;
+@use '../../../assets/styles/helpers/functions' as *;
+
+.card {
+	display: grid;
+	grid:
+		'picture'
+		'content';
+	place-self: center;
+	width: em(375);
+	background-color: var(--clr-secondary-100);
+	border-radius: var(--border-radius);
+	overflow: hidden;
+	@include extra-large-screen {
+		grid:
+			'picture content'
+			/ 50% 50%;
+		width: em(700);
+	}
+}

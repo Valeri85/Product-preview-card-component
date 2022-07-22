@@ -1,0 +1,38 @@
+:root {
+	/* Background Colors */
+	--clr-primary-100: hsl(30, 38%, 92%);
+	--clr-primary-400: hsl(158, 36%, 37%);
+	--clr-secondary-100: hsl(0, 0%, 100%);
+	--clr-secondary-300: hsl(228, 12%, 48%);
+	--clr-secondary-400: hsl(212, 21%, 14%);
+
+	/* Font Colors */
+
+	/* Hovers */
+
+	/* Shadows */
+	// --shadow: ;
+
+	/* Border Colors */
+
+	/* Responsive Paddings */
+	--content-padding: clamp(1.5em, 1.2727em + 0.6061vw, 2em);
+
+	/* Border Radiuses */
+	--border-radius: 0.75em;
+
+	/* Font Families */
+	--font-family-primary: Montserrat, sans-serif;
+	--font-family-secondary: Fraunces, serif;
+
+	/* Font Sizes */
+	--font-size-body: clamp(1.4rem, 1.3545rem + 0.1212vw, 1.5rem);
+	--font-size-h1: clamp(3rem, 2.7727rem + 0.6061vw, 3.5rem);
+
+	/* Font Weights */
+	--font-weight-500: 500;
+	--font-weight-700: 700;
+
+	/* Animations */
+	--animation-time: 500ms;
+}

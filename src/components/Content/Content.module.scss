@@ -1,0 +1,43 @@
+.contentWrapper {
+	display: grid;
+	grid-area: content;
+	padding: var(--content-padding);
+
+	h1,
+	strong {
+		font-family: var(--font-family-secondary);
+		color: var(--clr-primary-400);
+	}
+
+	h2 {
+		text-transform: uppercase;
+		letter-spacing: 5px;
+	}
+
+	h1 {
+		margin-block: 0.5em;
+		font-size: var(--font-size-h1);
+		line-height: 1;
+		color: var(--clr-secondary-400);
+	}
+
+	p {
+		margin-bottom: 2em;
+		font-size: clamp(1.3rem, 1.1636rem + 0.3636vw, 1.6rem);
+	}
+
+	.priceGroup {
+		display: flex;
+		align-items: center;
+		gap: 1.5em;
+		margin-bottom: 0.75em;
+	}
+
+	strong {
+		font-size: 3rem;
+	}
+
+	small {
+		text-decoration: line-through;
+	}
+}

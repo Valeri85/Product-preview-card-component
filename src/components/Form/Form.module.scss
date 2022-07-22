@@ -1,0 +1,21 @@
+.form {
+	margin-top: auto;
+
+	button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5em;
+		width: 100%;
+		padding: 1em;
+		background-color: var(--clr-primary-400);
+		border: 0;
+		border-radius: var(--border-radius);
+		color: var(--clr-secondary-100);
+		transition: background-color var(--animation-time) ease;
+		cursor: pointer;
+		&:hover {
+			background-color: var(--clr-secondary-400);
+		}
+	}
+}
