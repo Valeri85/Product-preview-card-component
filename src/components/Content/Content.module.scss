@@ -4,7 +4,7 @@
 	padding: var(--content-padding);
 
 	h1,
-	strong {
+	ins {
 		font-family: var(--font-family-secondary);
 		color: var(--clr-primary-400);
 	}
@@ -33,11 +33,8 @@
 		margin-bottom: 0.75em;
 	}
 
-	strong {
+	ins {
 		font-size: 3rem;
-	}
-
-	small {
-		text-decoration: line-through;
+		text-decoration: none;
 	}
 }

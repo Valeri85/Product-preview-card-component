@@ -13,8 +13,8 @@ export const Content: FC = () => (
 			Polge, Perfumer-Creator for the House of CHANEL.
 		</p>
 		<div className={classes.priceGroup}>
-			<strong>&#36;149.99</strong>
-			<small>&#36;169.99</small>
+			<ins>&#36;149.99</ins>
+			<del>&#36;169.99</del>
 		</div>
 		<Form />
 	</div>
